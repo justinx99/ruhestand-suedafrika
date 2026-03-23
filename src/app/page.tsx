@@ -125,11 +125,11 @@ export default function Home() {
                 einen ruhigen und sorgenfreien Ruhestand im südlichen Afrika.
               </p>
 
-              <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-8 space-y-5">
                 {reasons.map((item) => (
                   <article
                     key={item.title}
-                    className="rounded-2xl border border-[#deccb3] bg-[#fffaf3] p-5 shadow-[0_10px_22px_rgba(39,44,53,0.08)]"
+                    className="w-full rounded-2xl border border-[#deccb3] bg-[#fffaf3] p-6 sm:p-7 shadow-[0_10px_22px_rgba(39,44,53,0.08)]"
                   >
                     <h3 className="font-[Georgia,'Times_New_Roman',serif] text-xl leading-snug text-[#21365c]">
                       {item.title}
